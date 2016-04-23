@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-findbugs gui</actionName>
+            <displayName>findbugs gui</displayName>
+            <goals>
+                <goal>mvn</goal>
+                <goal>findbugs:gui</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-test</actionName>
+            <displayName>test</displayName>
+            <goals>
+                <goal>test</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-findbugs</actionName>
+            <displayName>findbugs</displayName>
+            <goals>
+                <goal>findbugs:gui</goal>
+            </goals>
+        </action>
+    </actions>
