@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="5.3.2" timestamp="2016-05-06T08:38:36.910">
+<pmd version="5.3.2" timestamp="2016-06-02T12:54:53.520">
 <file name="/home/skuarch/JavaProjects/escucharadio/src/main/java/controller/Index.java">
-<violation beginline="28" endline="28" begincolumn="16" endcolumn="29" rule="UnusedLocalVariable" ruleset="Unused Code" package="controller" class="Index" method="index" variable="stationsString" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.3.2/pmd-java/rules/java/unusedcode.html#UnusedLocalVariable" priority="3">
+<violation beginline="29" endline="29" begincolumn="16" endcolumn="29" rule="UnusedLocalVariable" ruleset="Unused Code" package="controller" class="Index" method="index" variable="stationsString" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.3.2/pmd-java/rules/java/unusedcode.html#UnusedLocalVariable" priority="3">
 Avoid unused local variables such as 'stationsString'.
 </violation>
 </file>

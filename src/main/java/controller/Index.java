@@ -1,5 +1,6 @@
 package controller;
 
+import java.util.Locale;
 import model.logic.RestClientGetAdapter;
 import org.json.JSONArray;
 import org.springframework.stereotype.Controller;
@@ -23,14 +24,14 @@ public class Index {
      * @return ModelAndView
      */
     @RequestMapping(value = "/")
-    public ModelAndView index() {
+    public ModelAndView index(Locale locale) {
         
         String stationsString;
         JSONArray jsonArrayStations;
         
         try {
             
-            jsonArrayStations = RestClientGetAdapter.receive("http://localhost:8000/v1/station/getActiveStations/");            
+            jsonArrayStations = RestClientGetAdapter.receive("http://localhost:8000/v1/station/getActiveStations/"+locale);            
             MAV.addObject("jsonArrayStations", jsonArrayStations);            
             
         } catch (Exception e) {
